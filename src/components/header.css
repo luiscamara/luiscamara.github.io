@@ -1,0 +1,43 @@
+.header {
+  max-width: 100%;
+  height: 100vh;
+  background: #aaa url("../assets/coding.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .nameHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 20%;
+  border: solid;
+  border-color: #44475a;
+  border-radius: 5px;
+  background-color: #282a36;
+}
+
+.header h1 {  
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.header h2 {
+  align-self: baseline;
+  padding-left: 7%;
+  font-size: 1.5em;
+}
+
+.header h4 {
+  font-size: 1.4em;
+}
+
+.header .btnToNavigation {
+  align-self: flex-end;
+
+}
