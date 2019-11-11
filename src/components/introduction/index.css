@@ -1,0 +1,85 @@
+.profile {
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #6272a4;  
+}
+
+.title h1 {
+  font-size: 4em;
+}
+
+.title h3 {
+  color: #777777;
+  font-size: 1.2em;
+}
+
+.title hr {
+  width: 50vw;
+}
+
+.bio {
+  width: 50vw;
+  display: flex;
+  flex-flow: row;
+  padding-top: 50px;
+}
+
+.about {
+  width: 35%;
+  padding-right: 15px;
+}
+
+.about h2 {
+  color: #6272a4;  
+  font-size: 1.75em;
+}
+
+.photo {
+  width: 35%;
+  align-self: flex-start;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.photoBackground {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #6272a4;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  z-index: -1;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+}
+
+.details {
+  width: 30%;
+  padding-left: 15px;
+}
+
+.details h2 {
+  color: #6272a4;  
+  font-size: 1.75em;
+}
+
+.details p {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,43 @@
+.footer {
+  height: 20vh;
+  background-color: #282a36;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.footer h2 {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.footer hr {
+  width: 60vh;
+  border: 1px solid white;
+}
+
+.contacts {
+  width: 30%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.contacts a {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 20%;
+  background-color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.contacts p {
+  color: #ffffff;
+}

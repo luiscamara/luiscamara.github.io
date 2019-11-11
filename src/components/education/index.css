@@ -1,0 +1,53 @@
+.education {
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #282a36;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education h2 {
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.education hr {
+  width: 100vh;
+  border: 1px solid #cccccc;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list p {
+  color: #ffffff;
+}
+
+.list strong {
+  font-weight: bold;
+}
+
+.list li {
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.institution {
+  width: 30vh;
+}
+
+.institution p {
+
+}
+
+.courseDetails {
+  width: 70vh;
+}

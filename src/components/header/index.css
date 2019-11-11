@@ -24,18 +24,18 @@
 }
 
 .nameHolder h1 {  
-  font-size: 3em;
+  font-size: 5vmin;
   font-weight: bold;
 }
 
 .nameHolder h2 {
   align-self: baseline;
   padding-left: 7%;
-  font-size: 1.5em;
+  font-size: 4vmin;
 }
 
 .nameHolder h4 {
-  font-size: 1.4em;
+  font-size: 2vmin;
 }
 
 @keyframes buttonAnimation {
