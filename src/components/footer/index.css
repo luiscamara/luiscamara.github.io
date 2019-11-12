@@ -29,6 +29,10 @@
   flex-direction: row;
 }
 
+.contacts a:hover {
+  text-decoration-color: #ffffff;
+}
+
 .icon {
   width: 25px;
   height: 25px;

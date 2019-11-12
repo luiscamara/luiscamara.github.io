@@ -1,0 +1,17 @@
+.institution {
+  align-items: center;  
+  display: flex;
+  flex-direction: column;
+  width: 25vh;
+}
+
+.institution h3 {
+}
+
+.institution p {
+
+}
+
+.courseDetails {
+  width: 70vh;
+}

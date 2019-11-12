@@ -1,0 +1,16 @@
+.listExperiences {
+  display: flex;
+  flex-direction: row;
+  width: 100vh;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vh;
+}
+
+.roles {
+  width: 70vh;
+}

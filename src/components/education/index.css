@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ffffff;
 }
 
 .education h2 {
@@ -18,36 +19,23 @@
   border: 1px solid #cccccc;
 }
 
-.list {
+.listEducation {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.list p {
+.listEducation p {
   color: #ffffff;
 }
 
-.list strong {
+.listEducation strong {
   font-weight: bold;
 }
 
-.list li {
+.listEducation li {
   width: 100vh;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-}
-
-.institution {
-  width: 30vh;
-}
-
-.institution p {
-
-}
-
-.courseDetails {
-  width: 70vh;
 }
