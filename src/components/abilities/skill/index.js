@@ -8,7 +8,7 @@ class Skill extends Component {
   createClassification = () => {
     let stars = [];
     for(let i = 0; i < this.props.rating; i++) {
-      stars.push(<FontAwesomeIcon icon={faStar} color="#ffffff" />);
+      stars.push(<FontAwesomeIcon key={i} icon={faStar} color="#ffffff" />);
     }
 
     return stars;

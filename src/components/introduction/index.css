@@ -1,7 +1,7 @@
 .profile {
   position: relative;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -15,12 +15,12 @@
 }
 
 .title h1 {
-  font-size: 4em;
+  font-size: 8.5vmin;
 }
 
 .title h3 {
   color: #777777;
-  font-size: 1.2em;
+  font-size: 3vmin;
 }
 
 .title hr {
@@ -31,24 +31,28 @@
   width: 50vw;
   display: flex;
   flex-flow: row;
-  padding-top: 50px;
+  padding-top: 1.5vmin;
 }
 
 .about {
   width: 35%;
-  padding-right: 15px;
+  padding-right: 1vmin;
 }
 
 .about h2 {
   color: #6272a4;  
-  font-size: 1.75em;
+  font-size: 3vmin;
+}
+
+.about p {
+  font-size: 1.75vmin;
 }
 
 .photo {
-  width: 35%;
+  width: 35vmin;
   align-self: flex-start;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .photoBackground {
@@ -58,28 +62,29 @@
   justify-content: center;
   background-color: #6272a4;
   border-radius: 50%;
-  width: 270px;
-  height: 270px;
+  width: 29vmin;
+  height: 29vmin;
   z-index: -1;
 }
 
 .photo img {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 27vmin;
+  height: 27vmin;
   z-index: 1;
 }
 
 .details {
   width: 30%;
-  padding-left: 15px;
+  padding-left: 1.5vmin;
 }
 
 .details h2 {
   color: #6272a4;  
-  font-size: 1.75em;
+  font-size: 3vmin;
 }
 
 .details p {
   margin-bottom: 0px;
+  font-size: 2vmin;
 }

@@ -25,12 +25,12 @@ function Abilities() {
             <h5>Frameworks</h5>
             <hr />
             <Skill name="Spring Boot" rating="5"/>
+            <Skill name="Android (Java)" rating="5"/>
             <Skill name="Node.js" rating="5"/>
             <Skill name="React.js" rating="4"/>
             <Skill name="React Native" rating="4"/>
-            <Skill name="Android/Java" rating="4"/>
+            <Skill name="Flutter" rating="3"/>
             <Skill name="Redux" rating="2"/>
-            <Skill name="Flutter" rating="2"/>
           </div>
           <div className="skillColumn">
             <h5>Databases</h5>
@@ -53,10 +53,8 @@ function Abilities() {
             <Skill name="Google Cloud Platform" rating="5"/>
             <Skill name="Heroku" rating="5"/>
             <Skill name="Git" rating="5"/>
-            <Skill name="JIRA" rating="5"/>
             <Skill name="AWS" rating="4"/>
             <Skill name="Docker" rating="4"/>
-            <Skill name="Jenkins" rating="3"/>
           </div>
           <div className="skillColumn">
             <h5>System Administration</h5>
@@ -70,10 +68,35 @@ function Abilities() {
             <Skill name="Apache Web Server" rating="4"/>
           </div>
           <div className="skillColumn">
-            <h5>Scripting / Automation</h5>
+            <h5>Scripting / Automation / CI</h5>
             <hr />
             <Skill name="Linux Bash" rating="4"/>
             <Skill name="Windows Powershell" rating="4"/>
+            <Skill name="Urban Code" rating="3"/>
+            <Skill name="Jenkins" rating="3"/>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="skills">
+        <h5>Tools</h5>
+        <br />
+        <div className="skillColumns">
+          <div className="skillColumn">
+            <Skill name="Android Studio" rating="5"/>
+            <Skill name="Intellij IDEA" rating="5"/>
+            <Skill name="JetBrains Rider" rating="5"/>
+            <Skill name="Netbeans" rating="5"/>
+            <Skill name="Visual Studio" rating="5"/>
+            <Skill name="Visual Code" rating="5"/>
+          </div>
+          <div className="skillColumn">
+            <Skill name="Insomnia" rating="4"/>
+            <Skill name="Postman" rating="4"/>
+            <Skill name="JIRA" rating="4"/>
+            <Skill name="SQL Developer" rating="4"/>
+            <Skill name="Eclipse" rating="3"/>
+            <Skill name="Anaconda" rating="3"/>
           </div>
         </div>
       </div>
@@ -84,29 +107,7 @@ function Abilities() {
         <div className="skillColumns">
           <div className="skillColumn">
             <Skill name="Portuguese" rating="5"/>
-          </div>
-          <div className="skillColumn">
             <Skill name="English" rating="4"/>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <div className="skills">
-        <h5>Tools</h5>
-        <br />
-        <div className="skillColumns">
-          <div className="skillColumn">
-            <Skill name="Intellij IDEA" rating="5"/>
-            <Skill name="Netbeans" rating="5"/>
-            <Skill name="Eclipse" rating="3"/>
-            <Skill name="Visual Studio" rating="5"/>
-            <Skill name="Visual Code" rating="5"/>
-            <Skill name="JetBrains Rider" rating="5"/>
-          </div>
-          <div className="skillColumn">
-            <Skill name="Insomnia" rating="5"/>
-            <Skill name="Postman" rating="5"/>
-            <Skill name="" rating="5"/>
           </div>
         </div>
       </div>

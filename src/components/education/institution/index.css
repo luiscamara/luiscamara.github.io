@@ -2,16 +2,25 @@
   align-items: center;  
   display: flex;
   flex-direction: column;
-  width: 25vh;
+  width: 30vw;
 }
 
 .institution h3 {
+  font-size: 3vmin;
 }
 
 .institution p {
-
+  font-size: 2vmin;
 }
 
 .courseDetails {
-  width: 70vh;
+  width: 70vw;
+}
+
+.courseDetails h4 {
+  font-size: 2.5vmin;
+}
+
+.courseDetails p {
+  font-size: 1.75vmin;
 }

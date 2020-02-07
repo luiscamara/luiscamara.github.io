@@ -7,18 +7,18 @@
 }
 
 .footer h2 {
-  margin-top: 20px;
+  margin-top: 2vmin;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 5vmin;
 }
 
 .footer hr {
-  width: 60vh;
+  width: 30vw;
   border: 1px solid white;
 }
 
 .contacts {
-  width: 30%;
+  width: 30vw;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -34,14 +34,20 @@
 }
 
 .icon {
-  width: 25px;
-  height: 25px;
+  width: 2.5vmin;
+  height: 2.5vmin;
   border-radius: 20%;
   background-color: #ffffff;
-  margin-right: 10px;
+  margin-right: 1vmin;
   text-align: center;
+}
+
+.icon svg {
+  width: 2.5vmin;
+  height: 2.5vmin;
 }
 
 .contacts p {
   color: #ffffff;
+  font-size: 1.5vmin;
 }

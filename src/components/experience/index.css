@@ -1,7 +1,7 @@
 .experience {
   position: relative;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 2vmin;
+  padding-top: 2vmin;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 .experience h2 {
   color: #6272a4;
-  font-size: 3em;
+  font-size: 5vmin;
 }
 
 .experience hr {
@@ -18,7 +18,7 @@
 }
 
 .experience .list {
-  padding-top: 25px;
+  padding-top: 1vmin;
 }
 
 .experience ul hr {

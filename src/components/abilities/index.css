@@ -1,7 +1,7 @@
 .abilities {
   position: relative;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 2vmin;
+  padding-top: 2vmin;
   background-color: #282a36;
   display: flex;
   flex-direction: column;
@@ -11,16 +11,16 @@
 
 .abilities h2 {
   color: #ffffff;
-  font-size: 3em;
+  font-size: 5vmin;
 }
 
 .abilities hr {
-  width: 100vh;
+  width: 50vw;
   border: 1px solid #ffffff;
 }
 
 .skills {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,17 +36,17 @@
 
 .skills .skillColumns h5 {
   align-self: center;
-  font-size: 1.1em;
+  font-size: 2vmin;
 }
 
 .skills .skillColumns hr {
-  width: 30vh;
+  width: 15vw;
 }
 
 .skills .skillColumns .skillColumn {
-  width: 30vh;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  width: 15vw;
+  margin-left: 1.5vmin;
+  margin-right: 1.5vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
