@@ -1,6 +1,5 @@
 .experience {
   position: relative;
-  height: 40vh;
   padding-bottom: 40px;
   padding-top: 40px;
   background-color: #ffffff;
@@ -16,4 +15,14 @@
 
 .experience hr {
   width: 50vw;
+}
+
+.experience .list {
+  padding-top: 25px;
+}
+
+.experience ul hr {
+  width: 50vw;
+  border-style: dashed;
+  border-width: 1.2px;
 }

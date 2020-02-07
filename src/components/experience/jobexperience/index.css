@@ -7,10 +7,22 @@
 .company {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   width: 25vh;
+}
+
+.company h4 {
+  font-size: 1.5em;
+}
+
+.company p {
+  font-size: 0.8em;
 }
 
 .roles {
   width: 70vh;
+}
+
+.roles h4 {
+  font-size: 1.2em;
 }

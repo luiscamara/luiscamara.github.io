@@ -5,9 +5,7 @@ class JobRole extends Component {
   render() {
     return (
       <li>
-        <li>
-          <p>{this.props.description}</p>
-        </li>
+        <p>{this.props.description}</p>
       </li>
     );
   }
