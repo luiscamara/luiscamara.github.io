@@ -24,6 +24,10 @@
   width: 70%;
 }
 
+.roles li {
+  list-style-type: disc;
+}
+
 .roles h4 {
   font-size: 1.25vw;
 }

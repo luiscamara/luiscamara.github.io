@@ -25,6 +25,8 @@
 
 .title hr {
   width: 50vw;
+  border: 0.25vw solid gray;
+  border-radius: 10%;
   margin: auto;
 }
 

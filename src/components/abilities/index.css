@@ -15,7 +15,8 @@
 
 .abilities hr {
   width: 50vw;
-  border: 1px solid #ffffff;
+  border: 0.25vw solid #ffffff;
+  border-radius: 10%;
   margin: auto;
 }
 
