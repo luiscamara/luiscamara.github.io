@@ -26,7 +26,7 @@ function Projects() {
         the power of sensor fusion on Android to capture road quality based on
         readings from devices in user's vehicles."
         techs={['Java', 'Android', 'Spring Boot', 'PostgreSQL', 'GIS']}
-        github='https://github.com/luiscamara/luiscamara.github.io/tree/development'
+        github='https://github.com/luiscamara/done'
       />
       <Project 
         title='Form Filler (VanHackathon)'
