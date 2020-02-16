@@ -80,7 +80,6 @@ function Abilities() {
       <hr />
       <div className="skills">
         <h5>Tools</h5>
-        <br />
         <div className="skillColumns">
           <div className="skillColumn">
             <Skill name="Android Studio" rating="5"/>
@@ -103,7 +102,6 @@ function Abilities() {
       <hr />
       <div className="skills">
         <h5>Languages</h5>
-        <br />
         <div className="skillColumns">
           <div className="skillColumn">
             <Skill name="Portuguese" rating="5"/>

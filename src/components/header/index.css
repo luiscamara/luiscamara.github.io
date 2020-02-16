@@ -1,11 +1,12 @@
 .header {
+  margin: 0;
   width: 100%;
   height: 100vh;
   background: #aaa url("../../assets/coding.jpg") no-repeat center fixed;
   background-size: cover;
   display: grid;
-  grid-template-columns: 1fr 1fr 40% 1fr 1fr;
-  grid-template-rows: 1fr 1fr 20% 1fr 1fr;
+  grid-template-columns: 1fr 1fr 50% 1fr 1fr;
+  grid-template-rows: 1fr 1fr 15vw 1fr 1fr;
 }
 
 .nameHolder {
@@ -24,31 +25,25 @@
 }
 
 .nameHolder h1 {  
-  font-size: 5vmin;
+  font-size: 3vw;
   font-weight: bold;
 }
 
-.nameHolder h2 {
-  align-self: baseline;
-  padding-left: 7%;
-  font-size: 4vmin;
-}
-
 .nameHolder h4 {
-  font-size: 2vmin;
+  font-size: 2vw;
 }
 
 @keyframes buttonAnimation {
   from {
-    transform: translateY(0px);
+    transform: translateY(0vmin);
   }
   to {
-    transform: translateY(65px);
+    transform: translateY(5vmin);
   }
 }
 
 .btnToNavigation {
-  grid-column: 5;
+  grid-column: 3;
   grid-row: 5;
   align-self: flex-start;
   justify-self: center;
@@ -56,4 +51,8 @@
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+}
+
+.btnToNavigation svg {
+  height: 12vmin;
 }

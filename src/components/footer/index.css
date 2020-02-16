@@ -1,26 +1,28 @@
 .footer {
-  height: 20vh;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
   background-color: #282a36;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
+  color: #ffffff;
 }
 
 .footer h2 {
-  margin-top: 2vmin;
   color: #ffffff;
-  font-size: 5vmin;
+  font-size: 3vw;
 }
 
 .footer hr {
-  width: 30vw;
+  width: 50vw;
   border: 1px solid white;
+  margin: auto;
 }
 
 .contacts {
-  width: 30vw;
+  padding-top: 1vw;
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -34,20 +36,25 @@
 }
 
 .icon {
-  width: 2.5vmin;
-  height: 2.5vmin;
+  width: 1vw;
+  height: 1vw;
   border-radius: 20%;
   background-color: #ffffff;
-  margin-right: 1vmin;
+  margin-right: 0.2vw;
   text-align: center;
 }
 
 .icon svg {
-  width: 2.5vmin;
-  height: 2.5vmin;
+  width: 1vw;
+  height: 1vw;
 }
 
 .contacts p {
   color: #ffffff;
-  font-size: 1.5vmin;
+  font-size: 0.75vw;
+}
+
+.contact {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }

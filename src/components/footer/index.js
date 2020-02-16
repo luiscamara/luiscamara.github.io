@@ -12,7 +12,7 @@ function Footer() {
       <h2>Contact</h2>
       <hr />
       <div className="contacts">
-        <div className="linkedin">
+        <div className="contact">
           <a href="https://www.linkedin.com/in/luiscamara/">
             <div className="icon">
               <FontAwesomeIcon icon={faLinkedinIn} color="#282a36" />
@@ -20,7 +20,7 @@ function Footer() {
             <p>https://www.linkedin.com/in/luiscamara/</p>
           </a>
         </div>
-        <div className="email">
+        <div className="contact">
           <a href="mailto:lgccamara@gmail.com">
             <div className="icon">
               <FontAwesomeIcon icon={faAt} color="#282a36" />

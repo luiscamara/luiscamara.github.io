@@ -1,7 +1,6 @@
 .projects {
-  position: relative;
-  padding-bottom: 2vmin;
-  padding-top: 2vmin;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -10,10 +9,11 @@
 
 .projects h2 {
   color: #6272a4;
-  font-size: 5vmin;
+  font-size: 3vw;
 }
 
 .projects hr {
   width: 50vw;
+  margin: auto;
 }
 
