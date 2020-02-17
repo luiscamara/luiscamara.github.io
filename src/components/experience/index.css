@@ -1,5 +1,4 @@
 .experience {
-  position: relative;
   padding-bottom: 2vw;
   padding-top: 2vw;
   background-color: #ffffff;
@@ -16,7 +15,7 @@
 .experience hr {
   width: 50vw;
   margin: auto;
-  border: 0.25vw solid gray;
+  border: 0.1vw solid gray;
   border-radius: 10%;
 }
 
@@ -30,5 +29,5 @@
   width: 50vw;
   border-style: dashed;
   border-color: #555555;
-  border-width: 0.1vw;
+  border-width: 0.07vw;
 }
