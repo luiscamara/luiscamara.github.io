@@ -6,11 +6,11 @@
 }
 
 .institution h3 {
-  font-size: 1.5vw;
+  font-size: 3vw;
 }
 
 .institution p {
-  font-size: 1vw;
+  font-size: 2vw;
 }
 
 .courseDetails {
@@ -18,9 +18,27 @@
 }
 
 .courseDetails h4 {
-  font-size: 1.25vw;
+  font-size: 3vw;
 }
 
 .courseDetails p {
-  font-size: 1vw;
+  font-size: 2vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .institution h3 {
+    font-size: 1.5vw;
+  }
+  
+  .institution p {
+    font-size: 1vw;
+  }
+  
+  .courseDetails h4 {
+    font-size: 1.25vw;
+  }
+  
+  .courseDetails p {
+    font-size: 1vw;
+  }
 }

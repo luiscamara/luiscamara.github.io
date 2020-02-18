@@ -10,13 +10,13 @@
 
 .abilities h2 {
   color: #ffffff;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .abilities hr {
-  width: 50vw;
-  border: 0.25vw solid #ffffff;
-  border-radius: 10%;
+  width: 90vw;
+  border: 0.5vw solid #ffffff;
+  border-radius: 15%;
   margin: auto;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .skills h5 {
-  font-size: 1vw;
+  font-size: 4vw;
 }
 
 .skills .skillColumns {
@@ -42,18 +42,19 @@
 
 .skills .skillColumns h5 {
   align-self: center;
-  font-size: 1vw;
+  font-size: 2vw;
   margin-bottom: 0.5vw;
 }
 
 .skills .skillColumns hr {
-  width: 15vw;
+  width: 25vw;
   margin: auto;
   margin-bottom: 0.5vw;
+  border: 0.3vw solid #ffffff;
 }
 
 .skills .skillColumns .skillColumn {
-  width: 15vw;
+  width: 25vw;
   margin-left: 1.25vw;
   margin-right: 1.25vw;
   display: flex;
@@ -61,3 +62,41 @@
   justify-content: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .abilities h2 {
+    color: #ffffff;
+    font-size: 3vw;
+  }
+  
+  .abilities hr {
+    width: 50vw;
+    border: 0.25vw solid #ffffff;
+    border-radius: 10%;
+    margin: auto;
+  }
+
+  .skills h5 {
+    font-size: 1vw;
+  }
+
+  .skills .skillColumns h5 {
+    align-self: center;
+    font-size: 1vw;
+    margin-bottom: 0.5vw;
+  }
+  
+  .skills .skillColumns hr {
+    width: 15vw;
+    margin: auto;
+    margin-bottom: 0.5vw;
+  }  
+
+  .skills .skillColumns .skillColumn {
+    width: 15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

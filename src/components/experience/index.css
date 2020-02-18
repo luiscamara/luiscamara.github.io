@@ -9,25 +9,52 @@
 
 .experience h2 {
   color: #6272a4;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .experience hr {
-  width: 50vw;
+  width: 90vw;
   margin: auto;
-  border: 0.1vw solid gray;
-  border-radius: 10%;
+  border: 0.5vw solid gray;
+  border-radius: 15%;
 }
 
 .experience .list {
   padding-top: 2vw;
-  padding-left: 24.5vw;
-  padding-right: 24.5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .experience ul hr {
-  width: 50vw;
+  width: 90vw;
   border-style: dashed;
   border-color: #555555;
-  border-width: 0.07vw;
+  border-width: 0.1vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .experience h2 {
+    color: #6272a4;
+    font-size: 3vw;
+  }
+  
+  .experience hr {
+    width: 50vw;
+    margin: auto;
+    border: 0.1vw solid gray;
+    border-radius: 10%;
+  }
+  
+  .experience .list {
+    padding-top: 2vw;
+    padding-left: 24.5vw;
+    padding-right: 24.5vw;
+  }
+  
+  .experience ul hr {
+    width: 50vw;
+    border-style: dashed;
+    border-color: #555555;
+    border-width: 0.07vw;
+  }
 }

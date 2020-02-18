@@ -13,11 +13,11 @@
 }
 
 .company h4 {
-  font-size: 1.25vw;
+  font-size: 3vw;
 }
 
 .company p {
-  font-size: 0.8vw;
+  font-size: 2vw;
 }
 
 .roles {
@@ -33,15 +33,40 @@
 
 .roles li:before {
   content: '\00b7';
-  font-size: 3vw;
-  padding-right: 1vw;
+  font-size: 7vw;
+  padding-right: 2vw;
 }
 
 .roles h4 {
-  font-size: 1.25vw;
+  font-size: 3vw;
 }
 
 .roles p {
-  font-size: 0.8vw;
+  font-size: 2vw;
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .company h4 {
+    font-size: 1.25vw;
+  }
+  
+  .company p {
+    font-size: 0.8vw;
+  }
+
+  .roles li:before {
+    content: '\00b7';
+    font-size: 3vw;
+    padding-right: 1vw;
+  }
+  
+  .roles h4 {
+    font-size: 1.25vw;
+  }
+  
+  .roles p {
+    font-size: 0.8vw;
+    margin-bottom: 0;
+  }
 }

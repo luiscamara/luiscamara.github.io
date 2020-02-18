@@ -10,15 +10,14 @@
 
 .footer h2 {
   color: #ffffff;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 
 .footer hr {
-  width: 50vw;
+  width: 90vw;
   margin: auto;
-  border: 0.25vw solid #ffffff;
-  border-radius: 10%;
-
+  border: 0.5vw solid #ffffff;
+  border-radius: 15%;
 }
 
 .contacts {
@@ -38,25 +37,62 @@
 }
 
 .icon {
-  width: 1vw;
-  height: 1vw;
+  width: 2.5vw;
+  height: 2.5vw;
   border-radius: 20%;
   background-color: #ffffff;
   margin-right: 0.2vw;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon svg {
-  width: 1vw;
-  height: 1vw;
+  height: 2vw;
+  vertical-align: super;
 }
 
 .contacts p {
   color: #ffffff;
-  font-size: 0.75vw;
+  font-size: 2vw;
 }
 
 .contact {
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer h2 {
+    color: #ffffff;
+    font-size: 3vw;
+  }
+  
+  .footer hr {
+    width: 50vw;
+    margin: auto;
+    border: 0.25vw solid #ffffff;
+    border-radius: 10%;
+  }
+
+  .icon {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 20%;
+    background-color: #ffffff;
+    margin-right: 0.2vw;
+    text-align: center;
+  }
+  
+  .icon svg {
+    width: 1vw;
+    height: 1vw;
+  }
+  
+  .contacts p {
+    color: #ffffff;
+    font-size: 0.75vw;
+  }
 }
